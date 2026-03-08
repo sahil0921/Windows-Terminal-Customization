@@ -1,1 +1,6 @@
 New-Item -Path $profile.CurrentUserAllHosts -Type File -Force
+
+
+type if not work
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
